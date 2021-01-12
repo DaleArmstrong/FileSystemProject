@@ -11,7 +11,9 @@ To compile, use the included makefile, by having make installed and typing make.
 * To run the program utilizing the testfile just type “./myfs”
 * To create a new file type ./myfs \<filename\> \<volumesize\> \<blocksize\>
 	* Once created, the program will present the option to format the volume.
-	* The file system will automatically calculate the required inodes, bit vector size, and data blocks. The minimum volume size is currently set to 20 blocks, which the file system will automatically set the volume size to if the requested number is below 20.
+	* The file system will automatically calculate the required inodes, bit vector size, and data blocks. The minimum volume size is currently set to 20 blocks, which the file system will automatically set the volume size to if the requested number is below 20.  
+	
+This will open a shell ready for commands.  
 
 ***************************************************************************  
 ### Driver Commands
